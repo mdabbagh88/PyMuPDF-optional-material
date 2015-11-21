@@ -29,14 +29,14 @@ if len(sys.argv) > 1:
     verz_inc = os.path.join(verz, "include", "mupdf")
     verz = verz_inc
     if not os.path.exists(verz):
-        print verz, "does not exists - exiting"
+        print verz, "does not exist - exiting"
         raise SystemExit
 
 if not verz:
     print "no dir parameter found, checking current dir"
     verz = os.listdir(os.curdir)
     for mu_dir in verz:
-        if mu_dir.startswith("mupdf"):
+        if mu_dir.lower().startswith("mupdf"):
             break
         else:
             mud_dir = ""
