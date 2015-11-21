@@ -8,9 +8,9 @@ The VC++ compile step of the command ``python setup.py install`` may end with er
 
 This utility locates the MuPDF include directory and changes all eol characters to the Windows standard CRLF for all header files (*.h) it finds in
 
-* ./include/mupdf
-* ./include/mupdf/fitz
-* ./include/mupdf/pdf
+* ``./include/mupdf``
+* ``./include/mupdf/fitz``
+* ``./include/mupdf/pdf``
 
 Possible invocations:
 =====================
