@@ -1,4 +1,5 @@
-# Updating End-Of-Line Characters in Windows
+Updating End-Of-Line Characters in Windows
+===========================================
 
 The utility upd_eol.py addresses an issue Windows users may encounter when installing PyMuPDF:
 
