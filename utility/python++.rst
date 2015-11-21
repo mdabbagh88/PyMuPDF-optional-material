@@ -1,4 +1,5 @@
-# Script python++.cmd
+Script python++.cmd
+===================
 
 This script addresses the issue of ``Error: Unable to find vcvarsall.bat``.
 
@@ -12,6 +13,6 @@ The script switches (PUSHD command) to the VC++ directory and excutes ``vcvarsal
 How to invoke
 -------------
 
-In order to perform a PyMuPDF setup execute the following command inyour PyFitz directory:
+In order to perform a PyMuPDF setup execute the following command in your PyFitz directory:
 
 ``python++ setup.py install``
