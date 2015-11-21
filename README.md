@@ -1,5 +1,5 @@
 # PyMuPDF Optional Material
-This repository contains optional material for [PyMuPDF](https://github.com/rk700/PyMuPDF), the Python bindings for accessing PDF files with MuPDF.
+This repository contains some Windows-specific optional material for [PyMuPDF](https://github.com/rk700/PyMuPDF), the Python bindings for accessing PDF files with MuPDF.
 
 Its purpose is to slim down the PyMuPDF repository to only contain material vital to create PyMuPDF in your Python installation.
 
