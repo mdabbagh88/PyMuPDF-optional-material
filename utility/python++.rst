@@ -13,6 +13,6 @@ The script switches (PUSHD command) to the VC++ directory and excutes ``vcvarsal
 How to invoke
 -------------
 
-In order to perform a PyMuPDF setup execute the following command in your PyFitz directory:
+In order to perform a PyMuPDF setup execute the following in the command prompt of your PyFitz directory:
 
 ``python++ setup.py install``
