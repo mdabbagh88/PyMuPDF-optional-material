@@ -49,11 +49,19 @@ if not verz:
         print "cannot find MuPDF include dir - exiting"
         raise SystemExit
 
-print "found dir", verz, "- start processing?"
+verz_fitz = os.path.join(verz, "fitz")
+verz_pdf  = os.path.join(verz, "pdf")
+if not os.path.exists(verz_fitz):
+    print "direcotry", verz_fitz, "does not exist - exiting"
+    raise SystemExit
+if not os.path.exists(verz_pdf):
+    print "direcotry", verz_pdf, "does not exist - exiting"
+    raise SystemExit
+
+print "found all required directories - start processing?"
 antw = raw_input("y/n: ")
 print "answer", antw
-my_dir = os.curdir
 if antw == "y":
     change_eol(verz)
-    change_eol(os.path.join(verz, "fitz"))
-    change_eol(os.path.join(verz, "pdf"))
+    change_eol(verz_fitz)
+    change_eol(verz_pdf)
