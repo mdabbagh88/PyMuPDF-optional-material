@@ -7,9 +7,11 @@ However, this repository does embody stuff of interest, that may simplify your s
 
 * **Pre-generated Windows *.lib modules:** Before you can use MuPDF in PyMuPDF, you must generate object code which is then being linkedited to your Python PYD (DLL) file. This requires that you have Visual Studio installed on your system (a several gigabyte beast). If you cannot or do not want to meet this prerequisite, then the modules in directory ``LibWin32`` are for you. They contain the required libraries, so you only need to execute the ``setup.py install`` command of PyMuPDF and do **not need to generate MuPDF**. You still must have a working C++ compiler for Python on board of course (usually ``MS Visual C++ for Python`` to be downloaded e.g. from [here](http://www.microsoft.com/en-us/download/details.aspx?id=44266)).
 
+* **MuPDF include directory:** This directory, together with the ``*.lib`` modules from above, can be used to setup PyMuPDF. No download of MuPDF is required.
+
 * **CHM based help:** PyMuPDF comes with HTML based help files. If you wish to use a compiled HTML (CHM) Windows help, you will find it here.
 
-* **minor utilities:** So far included are a utility for avoiding the pesky problem ``Unable to locate vcvarsall.bat``, and a tool to ensure that the header files in MuPDF source have the Windows standard end-of-line characters CRLF.
+* **minor utilities:** Included here are: (1) a setup command utility for avoiding the pesky problem ``Unable to locate vcvarsall.bat``, and (2) a tool to ensure that the header files in MuPDF source have the Windows standard end-of-line characters CRLF.
 
 
 # License
